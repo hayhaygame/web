@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900,300');
+html {
+    font-size: 14px;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #ddd;
+}
+h1 {
+
+}
+table {
+    border-collapse: collapse;
+}
+table th {
+    border: 1px solid #ddd;
+    padding: 2px 5px;
+    text-align: left;
+    background-color: #222;
+}
+table td {
+    border: 1px solid #ddd;
+    padding: 2px 5px;
+}
+h1, h2, h3, h4, h5, a {
+    color: #abcdef;
+}
+
+body.inframe {
+    color: #000;
+    overflow-y: hidden;
+}
+body.inframe h1,
+body.inframe h2,
+body.inframe h3,
+body.inframe h4,
+body.inframe h5 {
+    color: #000;
+}
+li {
+    font-size: 15px;
+}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+     /* IE10+ CSS styles go here */
+    html {
+        background-color: #000;
+    }
+}
+html {
+    background-color: #000\9;
+    *background-color: #000;
+    _background-color: #000;
+}
